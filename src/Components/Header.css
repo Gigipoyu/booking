@@ -1,0 +1,24 @@
+.general_header {
+  display: flex;
+  background-color: #4caf50;
+  color: white;
+  padding: 35px;
+}
+.left_general {
+  font-size: 20px;
+}
+.rigth_general {
+  display: flex;
+  margin-left: 80vw;
+  list-style: none;
+}
+
+.rigth_general Link a {
+  text-decoration: none;
+}
+
+.rigth_general,
+a:-webkit-any-link {
+  text-decoration: none;
+  color: white;
+}
